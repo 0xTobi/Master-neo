@@ -26,3 +26,23 @@ function App() {
 }
 
 export default App;
+
+
+function App2() {
+  return (
+    <div className="App">
+      <div className="headershadow">
+        <img src={headershadow} alt="" />
+      </div>
+      <Header />
+        <Aside />
+            <Whatcomponent />
+            <Whycomponent />
+        <Happyclient />
+      <Footer />
+      {/* <Overylay /> */}
+    </div>
+  );
+}
+
+export default App2;
